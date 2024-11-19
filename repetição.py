@@ -1,7 +1,10 @@
 def repetir ():
-    ve = int(input("Quantas vezes deseja repetir? "))
-    fr = input("Digite a mensagem: ")
+    while True:
+        vz = int(input("Quantas vezes você quer repetir? "))
+        pv = input("Qual a mensagem? ")
 
-    while ve != 0:
-        print(f"{fr}")
-        ve -= 1
+        if vz >0:
+            break
+
+    for _ in range(vz):
+        print(f"{pv}")

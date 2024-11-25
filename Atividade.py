@@ -2,10 +2,13 @@ import compararnota
 import mediaescolar
 import imc
 import repetição
+import aceita
 
 print("---Vamos iniciar---")
 nome = input("Insira seu nome para iniciar: ").capitalize()
 print(f"Olá {nome}, seja bem vindo.")
+
+aceita.termos()
 
 escolha = input(f"aperte 1 para prosseguir ou 2 para abrir a tabela. ")
 opção = 0
